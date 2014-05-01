@@ -239,3 +239,60 @@ By Cash
 50000
 ```
 
+# TRY CATCH
+
+- 需使用 BEGIN END
+
+```
+BEGIN TRY
+	DECLARE @i int = 0
+	SELECT 100 / @i
+END TRY
+BEGIN CATCH
+	PRINT @@error
+END CATCH
+```
+
+- ERROR_MESSAGE()   傳回造成執行 try 陳述式中的 錯誤號碼
+- ERROR_SEVERITY()  傳回造成執行 try 陳述式中的 嚴重性
+- ERROR_STATE()     傳回造成執行 try 陳述式中的 錯誤狀態碼
+- ERROR_MESSAGE()   傳回造成執行 try 陳述式中的 錯誤訊息文字
+- ERROR_LINE()      傳回發生錯誤造成執行 try 陳述式中程式的 行號
+- ERROR_PROCEDURE() 傳回發生錯誤造成執行 try 的預存程序或觸發程式的名稱
+
+- 無法抓取語法錯誤的異常
+
+```
+BEGIN TRY
+	SELECT ** FROM sys.objects o
+END TRY
+BEGIN CATCH
+	SELECT ERROR_MESSAGE() ErrorMessage
+END CATCH
+```
+
+- 無法處理編譯錯誤，例如物件名稱延緩解析錯誤
+
+```
+BEGIN TRY
+	SELECT * FROM sys.object o
+END TRY
+BEGIN CATCH
+	SELECT ERROR_MESSAGE() ErrorMessage
+END CATCH
+```
+
+- 錯誤層級低於 10 以下不會進入 catch 處理區
+
+- 不可跨超過一個批次處理
+
+```
+BEGIN TRY
+	SELECT 1/ 0;
+END TRY
+GO
+BEGIN CATCH
+	SELECT ERROR_MESSAGE() ErrorMessage
+END CATCH
+GO
+```
