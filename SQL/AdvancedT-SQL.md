@@ -144,4 +144,23 @@ END
 
 # 使用 GOTO 會破壞程式的可讀性和結構，建議不要使用
 
+# WAITFOR
+
+- 強迫 T-SQL 必須等待指定的時間在繼續執行其它的陳述式
+- 等待的時間最多可以是 24 小時
+- 指定時間執行 `WAITFOR TIME '00:00'` 
+- 指定延遲執行 `WAITFOR DELAY '00:00:05'`
+
+```
+SELECT GETDATE()
+
+-- 等待 5 秒
+WAITFOR DELAY '00:00:05'
+
+SELECT COUNT(*) FROM sys.tables t
+
+SELECT GETDATE()
+```
+
+
 
