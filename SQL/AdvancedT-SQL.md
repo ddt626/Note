@@ -296,3 +296,40 @@ BEGIN CATCH
 END CATCH
 GO
 ```
+
+# 實例 - 使用變數決定 T-SQL 執行內容
+
+```
+BEGIN TRY
+	DECLARE @db nvarchar(255)
+	DECLARE @tab nvarchar(255)
+	SET @db = N'AdventureWorks2012'
+	SET @tab = N'HumanResources.Employee'
+	EXECUTE ('SELECT * FROM ' + @db + '.' + @tab)
+END TRY
+BEGIN CATCH
+	SELECT ERROR_NUMBER(), ERROR_SEVERITY(), ERROR_STATE(),
+	       ERROR_MESSAGE(), ERROR_LINE(), ERROR_PROCEDURE()
+END CATCH
+```
+
+# 實例 - 利用 TRY CATCH 技巧讓程式自動中斷與 SQL Server 連線
+
+- 使用 WITH LOG 時，該錯誤訊息會自動記錄在 OS 應用程式的事件檢視器裡面
+
+```
+BEGIN TRY
+	RAISERROR('Disconnect SQL Server', 20, 1) WITH LOG
+END TRY
+BEGIN CATCH
+	SELECT ERROR_MESSAGE()
+END CATCH
+```
+```
+訊息 2745，層級 16，狀態 2，行 2
+處理序識別碼 54 引發使用者錯誤 50000，嚴重性 20。SQL Server 正在結束這個處理序。
+訊息 50000，層級 20，狀態 1，行 2
+Disconnect SQL Server
+訊息 0，層級 20，狀態 0，行 0
+在目前的命令上發生嚴重錯誤。如果有任何結果，都必須捨棄。
+```
