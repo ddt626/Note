@@ -74,3 +74,23 @@ ELSE
 GO 
 ```
 
+# BEGIN END
+
+- 一般來說會搭配 IF ELSE、WHILE 使用
+
+- 刪除不屬於 dbo 執行的資料行，判斷最近一段陳述式執行影響的筆數
+- 有加 BEGIN END 的話會顯示 ` data was delete `
+- 如果不加 BEGIN END 的話會執行 `SELECT 'Total Count', COUNT(*) FROM DatabaseLog dl`
+
+```
+DELETE FROM DatabaseLog WHERE DatabaseUser <> 'dbo'
+
+IF @@rowcount = 0 
+	PRINT ' No data was delete '
+ELSE 
+	BEGIN
+		PRINT ' data was delete '
+		SELECT 'Total Count', COUNT(*) FROM DatabaseLog dl
+	END	
+GO
+```
