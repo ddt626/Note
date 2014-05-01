@@ -162,5 +162,34 @@ SELECT COUNT(*) FROM sys.tables t
 SELECT GETDATE()
 ```
 
+# CASE
 
+- 可以在集合基礎 (Set-Based) 的指令下，處理 Row-Based 的作業
+
+```
+SELECT BusinessEntityID, Gender,
+	   CASE Gender WHEN 'M' THEN 'Man'
+	               WHEN 'F' THEN 'Woman'
+				   ELSE 'Unknown'
+	   END 
+FROM HumanResources.Employee
+```
+
+- 可以搭配建立資料表的過程，產生計算資料行
+
+```
+CREATE TABLE EmpSalary
+(
+	empId int NOT NULL PRIMARY KEY,
+	empName varchar(30) NOT NULL,
+	salary int NOT NULL,
+	grade AS CASE salary / 30000
+			WHEN 0 THEN 'A'
+			WHEN 1 THEN 'B'
+			WHEN 2 THEN 'C'
+			ELSE 'D'
+		END
+)
+GO 
+```
 
