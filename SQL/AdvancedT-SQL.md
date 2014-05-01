@@ -193,3 +193,21 @@ CREATE TABLE EmpSalary
 GO 
 ```
 
+# RETURN 、RAISERROR
+
+- RETURN 可以無條件的中斷任何陳述式
+
+```
+SELECT 1
+RETURN -- 以下陳述式不會執行
+SELECT 2
+```
+
+- RAISERROR 僅會將執行的錯誤訊息回傳給前端應用程式，不會中斷執行
+
+```
+SELECT 1
+RAISERROR ('bY CASH', 16, 1) -- 以下陳述式還是會執行
+SELECT 2
+```
+
