@@ -94,3 +94,54 @@ ELSE
 	END	
 GO
 ```
+
+# WHILE、BREAK、CONTINUE 
+
+- 基本用方法
+
+```
+DECLARE @i int = 5, @j int = 1
+
+WHILE @j <= @i
+BEGIN
+	SELECT @j
+	SET @j = @j + 1
+END
+```
+
+- 進階可以搭配資料指標 (CURSOR)，將資料以 Row-Based 的方式逐筆處理取代 Set-Based
+- 可以搭配 Break 指令跳離迴圈
+
+```
+DECLARE @i int = 0
+
+WHILE 1 = 1
+BEGIN
+	SET @i = @i + 1
+	IF @i > 100 BREAK
+END
+
+SELECT @i
+```
+
+- 可以使用 CONTINUE 重新執行迴圈，並忽略掉在 CONTINUE 後的任何陳述式
+
+```
+-- 條件是平均單價小於 500 以內
+WHILE (SELECT AVG(ListPrice) FROM Production.Product) < $500
+BEGIN  
+	-- 平均漲幅 10%
+	UPDATE Production.Product SET ListPrice = ListPrice * 1.1
+	-- 查詢最高單價
+	SELECT MAX(ListPrice) FROM Production.Product 	
+	-- 如果最高單價大於 4000 時中斷，否則就繼續
+	IF (SELECT MAX(ListPrice) FROM Production.Product) > $4000
+		BREAK
+	ELSE	
+		CONTINUE
+END
+```
+
+
+
+
