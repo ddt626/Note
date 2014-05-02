@@ -17,8 +17,14 @@
 
 - 字串函數
 
-  - ASCII，參數是字元，傳回指定字元的 ASCII 編號
+  - ASCII()，參數是字元，傳回指定字元的 ASCII 編號
   - `SELECT ASCII('a') AS 'a', ASCII('A') AS 'A'`
+  
+  - CHAR()，參數是 ASCII 編號，該函數是對應 ASCII 的函數，
+    主要是根據 ASCII 碼回傳字元。
+  - `SELECT 'Line1..' + CHAR(10) + 'Line2..' -- 產生換行`
+  
+  - 
 
 
 
