@@ -18,13 +18,14 @@
 - 字串函數
 
   - ASCII()，參數是字元，傳回指定字元的 ASCII 編號
-  - `SELECT ASCII('a') AS 'a', ASCII('A') AS 'A'`
+    - `SELECT ASCII('a') AS 'a', ASCII('A') AS 'A'`
   
   - CHAR()，參數是 ASCII 編號，該函數是對應 ASCII 的函數，
     主要是根據 ASCII 碼回傳字元。
-  - `SELECT 'Line1..' + CHAR(10) + 'Line2..' -- 產生換行`
+    - `SELECT 'Line1..' + CHAR(10) + 'Line2..' -- 產生換行`
   
-  - 
-
+  - CHARINDEX(運算式, 資料行|字串[,初始搜尋位置])，找尋運算式在字元字串中的起始位置
+  - null 表示該資料行內容為 null，0 表示找不到
+    - `SELECT d.DocumentNode, CHARINDEX('Adventure', d.DocumentSummary) FROM Production.Document d`
 
 
