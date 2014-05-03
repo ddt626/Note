@@ -40,6 +40,45 @@
   - 繼承式多型
   - 參數式多型：泛型 (正說你是什麼就是什麼)
     - List<T>，T 型別參數
+    
+  - 強制同型：int 跟 double 相加時，int 轉成 double
+  
+# 型別與變數
+
+- string 是參考型別
+- int 和 Int32 有什麼不同：在compliar 之後會是一樣的
+  - int 定義在 C# 裡 
+  - Int32 定義在 .net framework 裡
+  - Primitvie Type 定義在 C# 裡
+  - C# 不定於 .net framework
+  - complart 時，會把 int 定義在 Int32
+
+- 型別
+  - Primitive Type 
+  - 參考型別 Reference Type
+  - 實值型別 Value Type
+
+- 實值型別的變數和物件是綁在一起的
+- 參考型別是分開的
+
+- 實值型別 - Instance fields
+- 參考型別 
+  - Type Object Pointer
+  - Sync block index
+  
+- 所有的型別被使用的時候，就會產生一個 Type Object 型別物件
+
+- var 
+  - 強型別
+  - 右決議型別 = string
+  - linq 使用 select new 的時候，一定要使用 var 的情況
+ 
+  
+
+
+
+
+
 
 
 
