@@ -78,16 +78,16 @@
 - 參考型別物件的型別和變數一定要相同嗎?
   - 不用。`Object x = new String()` 
 
--實值型別
+- 實值型別
   - Int32 是一個結構
   - 當實質型別需要 Type object pointer 和 Sync block index 時會 boxing
   - enum的好處，可以用看的懂的字去替代數值
 
-
-
-
-
-
+- boxing 無所不在
+  - GetType 定義在 object，所以 GetType 時會 boxing 
+  - 實值型別轉型成 interface 時一定會 boxing
+  - 避免用 ArrayList 處理實值型別
+  
 
 
 
