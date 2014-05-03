@@ -88,7 +88,12 @@
   - 實值型別轉型成 interface 時一定會 boxing
   - 避免用 ArrayList 處理實值型別
   
+- 屬性跟事件 在IL Code 裡面定義都是 method
+- 所有的型別物件，都是 Type Object 的執行個體
 
+- sealed 禁止繼續覆寫
+- abstract 影含
+- 
 
 
 
