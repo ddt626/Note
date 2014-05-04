@@ -311,6 +311,57 @@ private static int ChangeX(ref int x)
     - 變數 x
     - TestClass 所產生的實體
 
+- 參考型別傳值
+```
+static void Main(string[] args)
+{
+  TestClass y = new TestClass();
+  ChangeX(y);
+}
+//取出 main 方法中的 y 的值複製一份到 ChangeX 方法中的 y
+//兩個 y 的變數位址不同
+private static TestClass ChangeX(TestClass y)
+{
+}
+```
+
+- 參考型別傳址
+```
+static void Main(string[] args)
+{
+  TestClass y = new TestClass();    
+  ChangeX(ref y);
+}
+//取出 main 方法中的 y 的位址傳遞給 ChangeX 方法中的 y
+//兩個 y 的變數位址相同
+private static TestClass ChangeX(ref TestClass y)
+{
+}
+```
+
+- 範例
+```
+static void Main(string[] args)
+{
+  TestClass y = new TestClass();
+  TestClass r1 = ChangeByVal(y);
+  Console.WriteLine("r1 和 y 指向同實體 : " + (r1 == y).ToString());
+  TestClass r2 = ChangeByRef(ref y);
+  Console.WriteLine("r2 和 y 指向同實體 : " + (r2 == y).ToString());
+  Console.ReadLine();
+}
+private static TestClass ChangeByVal(TestClass y)
+{
+  y = new TestClass();
+  return y;
+}
+private static TestClass ChangeByRef(ref TestClass y)
+{
+  y = new TestClass();
+  return y;
+}
+```
+
 - Tuple
   - 傳兩個不太相關的東西，又不想寫在同一個類別的時候
 
