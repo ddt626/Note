@@ -117,8 +117,10 @@ private void CreatInstance()
   v2.x = 20;
 }
 
-[參考型別和實值型別.png]
+
 ```
+
+![參考型別和實值型別.png](https://github.com/cashwu/Note/blob/master/C%23%20OO/%E5%8F%83%E8%80%83%E5%9E%8B%E5%88%A5%E5%92%8C%E5%AF%A6%E5%80%BC%E5%9E%8B%E5%88%A5.png)
 
 - 所有的型別被使用的時候，就會產生一個 Type Object 型別物件
 
