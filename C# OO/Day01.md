@@ -217,9 +217,10 @@ var newwords = words.Select((w)
   - 方法的變形
   - 使用屬性取代欄位成為公開介面
   - 自動實做實性
-  - ` public int day { get; set; }`
+    - ` public int day { get; set; }`
 
 ```
+//方法的變形
 public class Class1
 {
   private int _x = 0;
@@ -256,10 +257,51 @@ public class Class2
   - 將要隱藏的存取子的存取層級降低 => 比較好的做法
 
 - 方法
-  - 傳值與傳址
-  - 傳值跟傳址時主詞是變數
-  - out 跟 ref 其實一樣，只是 out 強迫一定要在 mehtod 裡面給值
+  - 包含一系列陳述式 (statement) 的程式碼區塊，程式會呼叫 (calling) 方法並
+    指定所有必要的方法引數，藉以執行陳述式
+  - 重要的關鍵字
+    - ref
+    - out
+    - params
   
+- 傳值與傳址
+  - 傳值跟傳址時的主詞是`變數`，一切以變數為主
+  - out 跟 ref 其實一樣，只是 out 強迫一定要在 mehtod 裡面給值
+
+- 實質型別的變數
+  - `int x = 0;` 
+  - 變數 x 在記憶體中佔有一個位址 (ex：0xFF80)
+  - 變數 x 的型別是 int
+  - 變數 x 儲存的內容值是 0
+  
+- 實值型別傳值
+```
+static void Main(string[] args)
+{
+  int x = 0;    
+  int y = ChangeX(x);
+}
+//取出 main 方法中的 x 的值複製一份到 ChangeX 方法中的 x
+//兩個 x 的變數位址不同
+private static int ChangeX(int x)
+{
+}
+```
+
+- 實值型別傳址
+```
+static void Main(string[] args)
+{
+  int x = 0;    
+  int y = ChangeX(ref x);
+}
+//取出 main 方法中的 x 的位址傳遞給 ChangeX 方法中的 x
+//兩個 x 的變數位址相同
+private static int ChangeX(ref int x)
+{
+}
+```
+
 - Tuple
   - 傳兩個不太相關的東西，又不想寫在同一個類別的時候
 
