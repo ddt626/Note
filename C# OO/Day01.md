@@ -302,6 +302,15 @@ private static int ChangeX(ref int x)
 }
 ```
 
+- 參考型別的變數
+  - `Object x = new TestClass();`
+  - 變數 x 在記憶體中佔有一個位址 (ex：0xAA77)
+  - 變數 x 的型別是 Object
+  - 變數 x 儲存的內容值是一個 TestClass 型別的物件位址 (0x1200) ====> 型別 TestClass 的 Instance，位址：0x1200
+  - 此時記憶體中有兩個東西
+    - 變數 x
+    - TestClass 所產生的實體
+
 - Tuple
   - 傳兩個不太相關的東西，又不想寫在同一個類別的時候
 
