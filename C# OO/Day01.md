@@ -139,20 +139,32 @@ var newwords = words.Select((w)
                                      Lower = w.ToLower() });
 ```
 
-- 參考型別物件與變數的關系：變數裡面會有指標指向物件
-- 參考型別物件的型別和變數一定要相同嗎?
-  - 不用 
-  - `Object x = new String()` 
+- 觀念
+  - 參考型別物件(執行個體)與變數的關系
+    - 變數裡面會有指標指向物件
+  
+  - 參考型別物件的型別和變數一定要相同嗎?
+    - 不用，ex：`Object x = new String()` 
 
-- 實值型別
-  - Int32 是一個結構
-  - 當實質型別需要 Type object pointer 和 Sync block index 時會 boxing
-  - enum的好處，可以用看的懂的字去替代數值
+# 實值型別
 
+- 特徵
+  - 一定會繼承 System.ValueType 
+  - 以結構或列舉的形式存在
+    - struct
+      - Int32 是一個結構
+    - enum
+      - enum 的好處，可以用看的懂的字去替代數值
+  - 變數與物件是一對一的關係
+  - 實值型別物件沒有 Type object pointer 和 Sync block index
+    - 當實質型別需要 Type object pointer 和 Sync block index 時會 boxing
+  
 - boxing 無所不在
-  - GetType 定義在 object，所以 GetType 時會 boxing 
+  - GetType 定義在 object，所以呼叫 GetType 時會 boxing 
   - 實值型別轉型成 interface 時一定會 boxing
-  - 避免用 ArrayList 處理實值型別
+  - 避免用 ArrayList 處理實值型別，因為會 boxing
+
+# 類別
   
 - 屬性跟事件 在IL Code 裡面定義都是 method
 - 所有的型別物件，都是 Type Object 的執行個體
