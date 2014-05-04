@@ -165,9 +165,36 @@ var newwords = words.Select((w)
   - 避免用 ArrayList 處理實值型別，因為會 boxing
 
 # 類別
+
+- 類別成員
+  - 常數
+  - 欄位
+  - 屬性
+  - 方法
+  - 事件
+  - 建構式
   
-- 屬性跟事件 在IL Code 裡面定義都是 method
+- 屬性跟事件 在 IL Code 裡面定義都是 方法
 - 所有的型別物件，都是 Type Object 的執行個體
+
+- 型別物件 vs 執行個體物件
+  - 型別物件
+    - Type Object Pointer
+    - Sync block index
+    - Static fields
+    - Method table
+  - 執行個體物件
+    - Type Object Pointer
+    - Sync block index
+    - Instance fields
+
+- 成員修飾詞
+  - abstract
+    - 為抽象成員，必須在其衍生類別中必須實做其內容 
+  - sealed
+  - virtual
+  - new
+  - override
 
 - 常數
   - 編譯時，會把所有值取代掉
