@@ -73,21 +73,30 @@
   - System.Int32 定義在 .net framework 裡
   - c# 不一定是用 .net framework compiler
   - 如果是用 .net framework 作 compiler 時，.net framework 會把 int 定義在 System.Int32 上
-  - 建議還是用 c# 語言的寫法，至少比較好寫，好打
+  - 建議還是用 c# 語言的寫法，至少比較好寫和好打
 
 - 型別
   - 資料型別 Primitive Type => 定義在 c#
   - 參考型別 Reference Type
   - 實值型別 Value Type
 
-- 實值型別的變數和物件是綁在一起的
-- 參考型別是分開的
+- 參考型別 vs 實值型別
+  - 從變數內容來看
+    - 實值型別變數內容就是物件本身
+      - 實值型別的變數和物件是綁在一起的
+    - 參考型別的變數內容是儲存指向物件的參考 (指標)  
+      - 參考型別的變數和物件是分開的
+  - 從記憶體分配來看
+    - 實值型別的物件存在 Stack
+    - 參考型別的物件在在 Heap
 
-- 實值型別 - Instance fields
+- 實值型別 
+  - Instance fields
 - 參考型別 
   - Type Object Pointer
   - Sync block index
-  
+  - Instance fields  
+
 - 所有的型別被使用的時候，就會產生一個 Type Object 型別物件
 
 - var 
