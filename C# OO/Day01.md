@@ -190,21 +190,70 @@ var newwords = words.Select((w)
 
 - 成員修飾詞
   - abstract
-    - 為抽象成員，必須在其衍生類別中必須實做其內容 
+    - 為抽象成員，在其衍生類別中必須實做其內容 
   - sealed
+    - 其衍生類別將無法再覆寫此成員
+    - 當套用至成員時，sealed 必須和 override 搭配使用
   - virtual
+    - 允許在衍生類別中覆寫此成員 
   - new
+    - 明確隱藏繼承自基底類別的成員，或稱為遮蔽
   - override
+    - 覆寫基底類別的虛擬 (virtual) 成員
 
 - 常數
-  - 編譯時，會把所有值取代掉
-  - 編譯時期的值就是死的
+  - 編譯時期就會把所有常數值取代掉
+    - 編譯時期的值就是死的
+  - 執行時期無法變更
 
 - 欄位
-  - readonly 時才會使用 public
+  - 在 .net 中，將定義於類別層級的變數稱為欄位
+  - 是一個任意型別的變數
+  - 一般情境下的存取層級很少是 public 
+    - readonly 時才會使用 public
 
 - 屬性
+  - 提供讀取、寫入或計算私用 (private) 欄位值之彈性機制的成員 
   - 方法的變形
+  - 使用屬性取代欄位成為公開介面
+  - 自動實做實性
+  - ` public int day { get; set; }`
+
+```
+public class Class1
+{
+  private int _x = 0;
+  public int GetX()
+  { 
+    return _x; 
+  }
+  
+  public void SetX(int value)
+  { 
+    _x = value; 
+  }
+}
+
+public class Class2
+{
+  private int _x = 0;
+  public int X
+  {
+    get 
+    { 
+      return _x; 
+    }
+    set 
+    { 
+      _x = value; 
+    }
+  }
+}
+```
+
+- 屬性唯讀/唯寫
+  - 只宣告 get/set 存取子其中之一 => 比較不好的做法
+  - 將要隱藏的存取子的存取層級降低 => 比較好的做法
 
 - 方法
   - 傳值與傳址
