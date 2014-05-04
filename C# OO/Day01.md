@@ -98,6 +98,8 @@
     - Sync block index
     - Instance fields  
 
+- 所有的型別被使用的時候，會產生一個 Type Object 型別物件
+
 ```
 public class MyRefClass
 { 
@@ -118,16 +120,25 @@ private void CreatInstance()
 }
 ```
 
-![參考型別和實值型別.png](https://raw.githubusercontent.com/cashwu/Note/master/C%23%20OO/%E5%8F%83%E8%80%83%E5%9E%8B%E5%88%A5%E5%92%8C%E5%AF%A6%E5%80%BC%E5%9E%8B%E5%88%A5.png =800x600)
-
-- 所有的型別被使用的時候，就會產生一個 Type Object 型別物件
+![參考型別和實值型別.png](https://raw.githubusercontent.com/cashwu/Note/master/C%23%20OO/%E5%8F%83%E8%80%83%E5%9E%8B%E5%88%A5%E5%92%8C%E5%AF%A6%E5%80%BC%E5%9E%8B%E5%88%A5.png)
 
 - var 
   - 強型別
-  - 右決議型別 = string
-  - linq 使用 select new 的時候，一定要使用 var 的情況
+  - 隱含型別
+  - 右(後)決議型別，由等號右邊決定型別 ( = string )
+  - 只能做為宣告區域變數使用
+  - 一定要使用 var 的情況
+    - linq 使用 select new 的時候
+  - 只能做為宣告區域變數使用
   - 編譯時沒有影響，所以不會影響效能
-  
+
+```
+string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+var newwords = words.Select((w) 
+                            => new { Upper = w.ToUpper(), 
+                                     Lower = w.ToLower() });
+```
+
 - 參考型別物件與變數的關系：變數裡面會有指標指向物件
 - 參考型別物件的型別和變數一定要相同嗎?
   - 不用 
