@@ -517,16 +517,226 @@ class Program
   - Action 沒有回傳值
   - Func 有回傳值 TResult
   
-- 事件就是藉由委派在傳遞
-  - 定閱者，發行者
+- 事件
+  - 事件可讓類別或物件在某些相關的事情發生時，告知其它類別或物件
+  - 事件是藉由委派在傳遞
+  - 傳送 (或引發 (Raise)) 事件的類別稱為 發行者 (Publisher)
+  - 接收 (或處理 (Handle)) 事件的類別稱為 訂閱者 (Subscriber)
   - 事件是固定的，事件委派函式是可以變動的
 
+- 基本宣告
+
+```
+public class Class1
+{
+  public event EventHandler XChanged;
+  private void OnXChanged()
+  {
+    if (XChanged != null)
+    { 
+      XChanged(this, new EventArgs()); 
+    }
+  }
+  
+  private int _x;
+  public int X
+  {
+    get { return _x; }
+    
+    set
+    {
+      if (_x != value)
+      {
+        _x = value;
+        OnXChanged();
+      }
+    }
+  }
+}
+```
+
+- 帶有資料的宣告
+  - 自訂委派
+  - 使用 EventHandler<T>
+
+- 自訂 EventArgs
+
+```
+public class CustomEventArgs : EventArgs
+{
+  public int OldValue { get; set; }
+  public int NewValue { get; set; }
+}
+```
+
+- 自訂委派
+
+```
+public delegate void CustomEventHandler(Object sender, CustomEventArgs e);
+public class Class1
+{
+  public event CustomEventHandler XChanged;
+  private void OnXChanged(int oldvalue, int newvalue)
+  {
+    if (XChanged != null)
+    { 
+      XChanged(this, new CustomEventArgs() 
+      { 
+        OldValue = oldvalue, 
+        NewValue = newvalue 
+      }); 
+    }
+  }
+}
+```
+
+- EventHandler<T>
+
+```
+public class Class1
+{
+  public event EventHandler<CustomEventArgs> XChanged;
+  private void OnXChanged(int oldvalue, int newvalue)
+  {
+    if (XChanged != null)
+    { 
+      XChanged(this, new CustomEventArgs() 
+      { 
+        OldValue = oldvalue, 
+        NewValue = newvalue 
+      }); 
+    }
+  }
+}
+```
+
+- Framework 版本的差異
+  - 在 4.5 以前，EventHandler where TEventArgs : EventArgs
+  - 4.5 時就沒有限制了
+
 - 建構式
+  - 類別或結構建立時，它的建構函式會被呼叫
+  - 建構函式的名稱與類別或結構相同
+  - 通常用來初始化新物件的資料成員
+  - 不使用任何參數的建構函式稱為 預設建構函式 (Default Constructor)
+    - 當使用 new 來具現化物件，而且未提供引數給 new 時，便會叫用預設建構函式
+  - 建構式不會繼承
+  - 抽象類別的建構式會被編譯成 protected
   - 預設隱含呼叫父類別無參數的建構式
   - 衍生類別必須要明確呼叫基底類別建構式
   - 不要在建構式裡面呼叫虛擬方法，避免 null exception
 
+```
+public class Car
+{
+  protected int _wheels;
+  public Car()
+  { 
+    _wheels = 4; 
+  }
+}
 
+public class Coupe : Car
+{
+  public Coupe()
+  //public Coupe():base() 事實上是這樣
+  {  
+    Console.WriteLine("Coupe" + _wheels.ToString()); 
+  }
+}
 
+public class Truck : Car
+{
+  public Truck(int wheels)
+  //public Truck(int wheels):base() 事實上是這樣
+  {
+    _wheels = wheels;
+    Console.WriteLine("Truck: " + _wheels.ToString());
+  }
+}
+```
 
+- 衍生類別必須要明確呼叫基底類別建構式
 
+```
+public class Airplane
+{
+  protected string _engine;
+  public Airplane (string engine)
+  {
+    _engine = engine;
+  }
+}
+
+public class Fighter : Airplane
+{
+  public Fighter(): base("噴射引擎")
+  {
+    Console.WriteLine (_engine);
+  }
+}
+```
+
+- 類別內部建構式呼叫
+
+```
+public class Truck
+{
+  protected int _wheels;
+  protected int _displacement;
+  public Truck()
+  {
+    _wheels = 8;
+    _displacement = 3500;
+  }
+  
+  public Truck(int wheels) : this()
+  { 
+    _wheels = wheels; 
+  }
+  
+  public Truck(int wheels, int displacement) : this(wheels)
+  { 
+    _displacement = displacement; 
+  }
+}
+```
+
+- 繼承鏈上的建構式呼叫順序
+  - 繼承鍊 : System.Object -- A -- B -- C
+  - C成員初始設定式 -> B成員初始設定式 -> A成員初始設定式 -> Object成員初始設定式
+    -> Object 建構式 -> A 建構式 -> B 建構式 -> C 建構式
+
+- 避免建構式呼叫虛擬方法
+
+```
+public class Car
+{
+  private Wheel _wheelsA;
+  public Car()
+  {
+    _wheelsA = new Wheel();
+    _wheelsA.Wheels = 4;
+    Initial();
+  }
+  
+  protected virtual void Initial()
+  { 
+    Console.WriteLine("Car :" + _wheelsA.Wheels.ToString()); 
+  }
+}
+
+public class Truck : Car
+{
+  private Wheel _wheelsB;
+  public Truck()
+  {
+    _wheelsB = new Wheel();
+    _wheelsB.Wheels = 10;
+  }
+  protected override void Initial()
+  { 
+    Console.WriteLine("Truck :" + _wheelsB.Wheels.ToString()); 
+  }
+}
+```
