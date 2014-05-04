@@ -1,3 +1,4 @@
+# 基本概念
 
 - oop 就是`襌學`、`頓悟`
 
@@ -21,8 +22,6 @@
   - 物件要能被識別：變數
   - 物件可以被創造及消滅：記憶體裡面的位置，不用時可以被回收
   - 物件有生命週期：會被創造和回收
-  
-  - 程序和資料要分開
   
 - 類別與物件
   - 外界的真實事物都有其相似或相同性質的地方
@@ -68,15 +67,16 @@
 # 型別與變數
 
 - string 是參考型別
-- int 和 Int32 有什麼不同：在compliar 之後會是一樣的
-  - int 定義在 C# 裡 
-  - Int32 定義在 .net framework 裡
-  - Primitvie Type 定義在 C# 裡
-  - C# 不定於 .net framework
-  - complart 時，會把 int 定義在 Int32
+- int 和 System.Int32 有什麼不同：
+  - 基本上在 compiler 之後會是一樣的
+  - int 定義在 c# 語言裡 
+  - System.Int32 定義在 .net framework 裡
+  - c# 不一定是用 .net framework compiler
+  - 如果是用 .net framework 作 compiler 時，.net framework 會把 int 定義在 System.Int32 上
+  - 建議還是用 c# 語言的寫法，至少比較好寫，好打
 
 - 型別
-  - Primitive Type 
+  - 資料型別 Primitive Type => 定義在 c#
   - 參考型別 Reference Type
   - 實值型別 Value Type
 
