@@ -259,7 +259,7 @@ public class Class2
 - 方法
   - 包含一系列陳述式 (statement) 的程式碼區塊，程式會呼叫 (calling) 方法並
     指定所有必要的方法引數，藉以執行陳述式
-  - 重要的關鍵字 ![MSDN](http://msdn.microsoft.com/zh-tw/library/8f1hz171.aspx)
+  - 重要的關鍵字 [MSDN](http://msdn.microsoft.com/zh-tw/library/8f1hz171.aspx)
     - ref
     - out
     - params
@@ -411,10 +411,107 @@ private static TestClass ChangeByRef(ref TestClass y)
   - 覆寫 + 多載
 
 - 委派
-  - 是一個型別，用 delegate 宣告時，是在宣告一個型別，其父類別是 MulticastDelegate
+  - 是一種方法簽章的型別，用 delegate 宣告時，是在宣告一個型別，其父類別是 MulticastDelegate
   - 宣告簽章，所指向的方法也要符合簽章
   - 委派型別宣告出來的變數是參考型別
-  - 委派可以當 method 的參數傳
+  - 委派可以用來將方法當作引數傳遞給其它方法
+  - 委派是多重的 (鏈式委派)
+  - 可以透過委派叫用 (Invoke) 或呼叫方法
+
+```
+public delegate void SomeAction(string message); 
+static void Main(string[] args)
+{            
+  SomeAction action = ShowMessage;
+  action.Invoke("Test");
+  Console.ReadLine();
+}
+
+public static void ShowMessage(string message)
+{
+  Console.WriteLine(message);
+}
+```
+
+- MulitcastDelegate 類別
+  - 多重傳送的委派 (Delegate)
+  - 委派可以在它的引動過程清單中包含一個以上的項目
+  - 編譯器和其他工具可以衍生自這個類別，但是您無法明確衍生自這個類別
+  - 具有由一個或多個項目組成的委派連結串列 (Linked List)，稱為引動過程清單
+  - 當叫用 (Invoke) 多點傳送委派時，依照顯示的順序同步呼叫引動過程清單中的委派
+
+```
+public delegate void SomeAction(string message);
+static void Main(string[] args)
+{
+  SomeAction action = ShowMessage;
+  action += ShowText;
+  action.Invoke("Test");
+  Console.ReadLine();
+}
+
+public static void ShowMessage(string message)
+{
+  Console.WriteLine("ShowMessage :" + message);
+}
+
+public static void ShowText(string text)
+{
+  Console.WriteLine("ShowText :" + text);
+}
+```
+
+- 傳遞方法
+
+```
+class Program
+{
+  static void Main(string[] args)
+  {
+    Class1 obj = new Class1();
+    SomeAction a= Show;
+    obj.DoAction(a, "pass delegate");
+    Console.ReadLine();
+  }
+  
+  public static void Show(string text)
+  {
+    Console.WriteLine("Show " + text);  
+  }
+}
+
+public delegate void SomeAction(string message);
+public class Class1
+{
+  public void DoAction(SomeAction action,string message)
+  {
+    action.Invoke(message);
+  }
+}
+```
+
+- GetInvocationList
+```
+class Program
+{
+  private delegate int SomeDelegate();
+  static void Main(string[] args)
+  {
+    SomeDelegate method = Method01;
+    method += Method02;
+    method += Method03;
+    int value = method.Invoke();
+    Console.WriteLine("Result : " + value.ToString());
+    Console.ReadLine();
+
+    foreach (var d in method.GetInvocationList())
+    { 
+      Console.WriteLine(d.DynamicInvoke()); 
+    }
+    Console.ReadLine();
+  }
+}
+```
 
 - Action Func
   - Action 沒有回傳值
