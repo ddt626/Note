@@ -80,7 +80,7 @@
   - 參考型別 Reference Type
   - 實值型別 Value Type
 
-- 參考型別 vs 實值型別
+- 參考型別 vs 實值型別 1
   - 從變數內容來看
     - 實值型別變數內容就是物件本身
       - 實值型別的變數和物件是綁在一起的
@@ -89,13 +89,36 @@
   - 從記憶體分配來看
     - 實值型別的物件存在 Stack
     - 參考型別的物件在在 Heap
+ 
+- 參考型別 vs 實值型別 2
+  - 實值型別 
+    - Instance fields
+  - 參考型別 
+    - Type Object Pointer
+    - Sync block index
+    - Instance fields  
 
-- 實值型別 
-  - Instance fields
-- 參考型別 
-  - Type Object Pointer
-  - Sync block index
-  - Instance fields  
+```
+public class MyRefClass
+{ 
+  public int x; 
+}
+
+public struct MyValStruct
+{ 
+  public int x; 
+}
+
+private void CreatInstance()
+{
+  MyRefClass v1 = new MyRefClass();
+  MyValStruct v2 = new MyValStruct();
+  v1.x = 10;
+  v2.x = 20;
+}
+
+[參考型別和實值型別.png]
+```
 
 - 所有的型別被使用的時候，就會產生一個 Type Object 型別物件
 
