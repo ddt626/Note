@@ -25,7 +25,23 @@
     - `SELECT 'Line1..' + CHAR(10) + 'Line2..' -- 產生換行`
   
   - CHARINDEX(運算式, 資料行|字串[,初始搜尋位置])，找尋運算式在字元字串中的起始位置
-  - null 表示該資料行內容為 null，0 表示找不到
+    - null 表示該資料行內容為 null，0 表示找不到
     - `SELECT d.DocumentNode, CHARINDEX('Adventure', d.DocumentSummary) FROM Production.Document d`
+
+  - PATINDEX('%pattern%', 運算式)，指定運算式中根據字元字串，利用萬用字元，找尋起始位置。
+    - null 表示該資料行內容為 null，0 表示找不到
+    - `SELECT PATINDEX('%you%', d.DocumentSummary) FROM Production.Document d`
+
+  - LOWER()、UPPER()，回傳轉成小寫與大寫的字元資料
+    - `SELECT LOWER('Cash');`
+    - `SELECT UPPER('Cash');`
+
+  - RIGHT(資料行|字串,整數)、LEFT(資料行|字串,整數)，針對指定的資料行與字串，從右邊或是左邊找出指定字數的部份字串
+    ``` 
+    SELECT pod.PurchaseOrderID, pod.OrderQty, 
+		'00000'+ CONVERT(varchar(5), pod.OrderQty) AS '轉字串',
+		RIGHT('00000' + CONVERT(varchar(5), pod.OrderQty),5) '取五碼' 
+    FROM Purchasing.PurchaseOrderDetail pod
+    ```
 
 
