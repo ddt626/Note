@@ -70,17 +70,43 @@
 # 泛型
 
 - 概觀
-  - <> 泛型參數
-  - 由caller 決定型別
+  - 2.0之後才出現 
+  - 不等於 泛型參數
+  - 泛型是強型別的概念，由 caller 決定型別
+  - 避免容器操作的 Boxing 與 Unboxing
 
 - 應用面
-  
-- default
+  - 泛型介面
+    - interface Itest<T>
+  - 泛型類別
+    - class Tset<T>
+  - 泛型方法
+    - void Test<T> (T value)
+    - T Test<T>()
+  - 泛型委派
+    - delegate void Del<T> (T item)
+
+- default 關鍵字
   - 只會回傳 0 或是 null
+  - 通常在沒有條件約束時使用
   - 泛型時不能return null，要使用 default(T)
 
 - 泛型條件約束
-  - 一定要有無參數的建構式 `: new()`
+  - 可限制用戶端程式碼在執行個體化類別時的型別 
+  - 使用 where 指定條件約束
+  - where T : struct
+    - 型別引數必須是實值型別
+  - where T : class
+    - 型別引數必須是參考型別
+  - where T : new()
+    - 型別引數必須擁有公用的無參數建構函式
+    - 與其它條件約束一起使用時，要指定其為最後一個
+  - where T : <base class name>
+    - 型別引數必須本身是指定的基底類別，或衍生自該類別
+  - where T : <interface name>
+    - 型別引數必須本身是指定的介面或實作該介面
+  - where T : U
+    - 提供給 T 的型別引數必須是提供給 U 的引數 
 
 # 不變性、共變性、逆變性
 
