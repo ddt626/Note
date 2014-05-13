@@ -80,3 +80,27 @@
   - STR(數值, [, 長度 [, 小數點右方的位數]])：傳回從數值資料轉換的字元資料
     - `SELECT STR(123.45, 6, 1)`
 
+- 日期與時間函數
+	- 指定日期時間的資料，需要在前後加上單引號
+	- 指定日期時間的過程，如果沒有指定時間就會以 '00:00:00' 取代
+	- 日期時間的指定格式與 SET DATEFORMAT 有關系
+	- 日期時間的輸出結果與 SET LANGUAGE 有關系
+	
+	- SYSDATETIME()：現在時間，SYSUTCDATETIME()：現在UTC時間，SYSDATETIMEOFFSET()：現在時間與時區
+	
+	- SWITCHOFFSET()：運用在計算不同時區的現在時間，需要使用 datetimeoffset 的資料類型
+		- `SELECT SWITCHOFFSET(SYSDATETIMEOFFSET(), '+08:00')`
+
+	- GETUTCDATE()：格林威治標準時間，GETDATE()：目前日期和時間，CURRENT_TIMESTAMP：目前日期和時間
+	
+	- DATEADD(日期的部份, 數字, 日期時間值)，DATEDIFF(日期的部份, 開始日期, 結束日期)
+		- yyyy 年、mm 月、dd 日、hh 小時、mi 分、ss 秒、ms 毫秒...
+		- `SELECT DATEADD(mm, 12, '2009/01/10'), DATEDIFF(dd, '2009/01/10', '2007/09/05')`
+	
+	- DATEPART(日期的部份, 日期時間值)，DATENAME(日期部份, 日期時間值)
+		- DATEPART 回傳的是數字，DATENAME 回傳的是文字
+		- 會根據執行階段的語系讓結果有所不同
+		- `SELECT DATEPART(dw, '2009/01/15'), DATENAME(dw, '2009/01/15')`
+	
+	- YEAR(日期時間值)、MONTH(日期時間值)、DAY(日期時間值)
+		- 等同使用 DATEPART(yyyy, 日期時間值)、DATEPART(mm, 日期時間值)、DATEPART(dd, 日期時間值)
