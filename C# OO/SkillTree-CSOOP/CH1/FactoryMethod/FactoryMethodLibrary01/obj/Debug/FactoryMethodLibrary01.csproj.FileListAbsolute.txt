@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodLibrary01\bin\Debug\FactoryMethodLibrary01.dll
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodLibrary01\bin\Debug\FactoryMethodLibrary01.pdb
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodLibrary01\obj\Debug\FactoryMethodLibrary01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodLibrary01\obj\Debug\FactoryMethodLibrary01.dll
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodLibrary01\obj\Debug\FactoryMethodLibrary01.pdb

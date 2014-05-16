@@ -1,0 +1,2 @@
+C:\DemoCode\CSOOP\CH0\DependencyDem01\DependencyDemo02\bin\Debug\DependencyDemo02.exe.config
+C:\DemoCode\CSOOP\CH1\DependencyDem01\DependencyDemo02\bin\Debug\DependencyDemo02.exe.config

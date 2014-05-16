@@ -1,0 +1,12 @@
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary02\bin\Debug\TestLibrary02.dll
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary02\bin\Debug\TestLibrary02.pdb
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary02\obj\Debug\TestLibrary02.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary02\obj\Debug\TestLibrary02.dll
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary02\obj\Debug\TestLibrary02.pdb
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\TestLibrary02\bin\Debug\TestLibrary02.dll
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\TestLibrary02\bin\Debug\TestLibrary02.pdb
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\TestLibrary02\bin\Debug\TestLibrary01.dll
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\TestLibrary02\bin\Debug\TestLibrary01.pdb
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\TestLibrary02\obj\Debug\TestLibrary02.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\TestLibrary02\obj\Debug\TestLibrary02.dll
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\TestLibrary02\obj\Debug\TestLibrary02.pdb

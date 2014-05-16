@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\ReflectionBMIDemo01\bin\Debug\ReflectionBMIDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\ReflectionBMIDemo01\bin\Debug\ReflectionBMIDemo01.exe
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\ReflectionBMIDemo01\bin\Debug\ReflectionBMIDemo01.pdb
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\ReflectionBMIDemo01\obj\Debug\ReflectionBMIDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\ReflectionBMIDemo01\obj\Debug\ReflectionBMIDemo01.exe
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\ReflectionBMIDemo01\obj\Debug\ReflectionBMIDemo01.pdb

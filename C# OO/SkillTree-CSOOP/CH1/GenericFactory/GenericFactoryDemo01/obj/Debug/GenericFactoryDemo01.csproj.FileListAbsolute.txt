@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\bin\Debug\GenericFactoryDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\obj\Debug\GenericFactoryDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\bin\Debug\GenericFactoryDemo01.exe
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\bin\Debug\GenericFactoryDemo01.pdb
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\obj\Debug\GenericFactoryDemo01.exe
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\obj\Debug\GenericFactoryDemo01.pdb
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\bin\Debug\GenericLibrary01.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericFactoryDemo01\bin\Debug\GenericLibrary01.pdb

@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH0\InterfaceDemo01\InterfaceDemo01\obj\Debug\InterfaceDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\InterfaceDemo01\InterfaceDemo01\bin\Debug\InterfaceDemo01.exe
+C:\DemoCode\CSOOP\CH0\InterfaceDemo01\InterfaceDemo01\bin\Debug\InterfaceDemo01.pdb
+C:\DemoCode\CSOOP\CH0\InterfaceDemo01\InterfaceDemo01\obj\Debug\InterfaceDemo01.exe
+C:\DemoCode\CSOOP\CH0\InterfaceDemo01\InterfaceDemo01\obj\Debug\InterfaceDemo01.pdb

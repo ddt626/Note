@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\AttributeDemo01\AttributeDemo01\bin\Debug\AttributeDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\AttributeDemo01\AttributeDemo01\bin\Debug\AttributeDemo01.exe
+C:\DemoCode\CSOOP\CH1\AttributeDemo01\AttributeDemo01\bin\Debug\AttributeDemo01.pdb
+C:\DemoCode\CSOOP\CH1\AttributeDemo01\AttributeDemo01\obj\Debug\AttributeDemo01.exe
+C:\DemoCode\CSOOP\CH1\AttributeDemo01\AttributeDemo01\obj\Debug\AttributeDemo01.pdb

@@ -1,0 +1,4 @@
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstLibrary02\bin\Debug\ConstLibrary02.dll
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstLibrary02\bin\Debug\ConstLibrary02.pdb
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstLibrary02\obj\Debug\ConstLibrary02.dll
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstLibrary02\obj\Debug\ConstLibrary02.pdb

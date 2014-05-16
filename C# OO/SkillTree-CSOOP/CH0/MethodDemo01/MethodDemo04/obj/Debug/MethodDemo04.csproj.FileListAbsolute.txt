@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo04\bin\Debug\MethodDemo04.exe.config
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo04\bin\Debug\MethodDemo04.exe
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo04\bin\Debug\MethodDemo04.pdb
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo04\obj\Debug\MethodDemo04.exe
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo04\obj\Debug\MethodDemo04.pdb

@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH1\BridgeDemo01\BridgeDemo01\bin\Debug\BridgeDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\BridgeDemo01\BridgeDemo01\bin\Debug\BridgeDemo01.exe
+C:\DemoCode\CSOOP\CH1\BridgeDemo01\BridgeDemo01\bin\Debug\BridgeDemo01.pdb
+C:\DemoCode\CSOOP\CH1\BridgeDemo01\BridgeDemo01\obj\Debug\BridgeDemo01.exe
+C:\DemoCode\CSOOP\CH1\BridgeDemo01\BridgeDemo01\obj\Debug\BridgeDemo01.pdb
+C:\DemoCode\CSOOP\CH1\BridgeDemo01\BridgeDemo01\obj\Debug\BridgeDemo01.csprojResolveAssemblyReference.cache

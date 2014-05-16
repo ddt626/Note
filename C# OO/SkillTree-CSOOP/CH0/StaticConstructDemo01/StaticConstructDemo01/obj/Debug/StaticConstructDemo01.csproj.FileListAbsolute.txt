@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH0\StaticConstructDemo01\StaticConstructDemo01\bin\Debug\StaticConstructDemo01.exe
+C:\DemoCode\CSOOP\CH0\StaticConstructDemo01\StaticConstructDemo01\bin\Debug\StaticConstructDemo01.pdb
+C:\DemoCode\CSOOP\CH0\StaticConstructDemo01\StaticConstructDemo01\obj\Debug\StaticConstructDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\StaticConstructDemo01\StaticConstructDemo01\obj\Debug\StaticConstructDemo01.exe
+C:\DemoCode\CSOOP\CH0\StaticConstructDemo01\StaticConstructDemo01\obj\Debug\StaticConstructDemo01.pdb

@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\bin\Debug\TypeDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\bin\Debug\TypeDemo01.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\bin\Debug\TypeDemo01.pdb
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\obj\Debug\TypeDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\obj\Debug\TypeDemo01.Form1.resources
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\obj\Debug\TypeDemo01.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\obj\Debug\TypeDemo01.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\obj\Debug\TypeDemo01.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\TypeDemo01\obj\Debug\TypeDemo01.pdb

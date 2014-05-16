@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH0\IndexerDemo01\IndexerDemo01\bin\Debug\IndexerDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\IndexerDemo01\IndexerDemo01\bin\Debug\IndexerDemo01.exe
+C:\DemoCode\CSOOP\CH0\IndexerDemo01\IndexerDemo01\bin\Debug\IndexerDemo01.pdb
+C:\DemoCode\CSOOP\CH0\IndexerDemo01\IndexerDemo01\obj\Debug\IndexerDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\IndexerDemo01\IndexerDemo01\obj\Debug\IndexerDemo01.exe
+C:\DemoCode\CSOOP\CH0\IndexerDemo01\IndexerDemo01\obj\Debug\IndexerDemo01.pdb

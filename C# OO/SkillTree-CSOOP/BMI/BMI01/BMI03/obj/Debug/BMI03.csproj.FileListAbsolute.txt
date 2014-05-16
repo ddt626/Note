@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\bin\Debug\BMI03.exe.config
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\bin\Debug\BMI03.exe
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\bin\Debug\BMI03.pdb
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\obj\Debug\BMI03.Form1.resources
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\obj\Debug\BMI03.Properties.Resources.resources
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\obj\Debug\BMI03.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\obj\Debug\BMI03.exe
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\obj\Debug\BMI03.pdb
+C:\DemoCode\CSOOP\BMI\BMI01\BMI03\obj\Debug\BMI03.csprojResolveAssemblyReference.cache

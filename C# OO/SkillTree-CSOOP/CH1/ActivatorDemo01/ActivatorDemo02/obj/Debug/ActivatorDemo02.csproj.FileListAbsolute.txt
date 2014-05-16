@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo02\bin\Debug\ActivatorDemo02.exe.config
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo02\bin\Debug\ActivatorDemo02.exe
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo02\bin\Debug\ActivatorDemo02.pdb
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo02\obj\Debug\ActivatorDemo02.exe
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo02\obj\Debug\ActivatorDemo02.pdb

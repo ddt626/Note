@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH1\IOCDemo01\IOCDemo01\bin\Debug\IOCDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\IOCDemo01\IOCDemo01\bin\Debug\IOCDemo01.exe
+C:\DemoCode\CSOOP\CH1\IOCDemo01\IOCDemo01\bin\Debug\IOCDemo01.pdb
+C:\DemoCode\CSOOP\CH1\IOCDemo01\IOCDemo01\obj\Debug\IOCDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\IOCDemo01\IOCDemo01\obj\Debug\IOCDemo01.exe
+C:\DemoCode\CSOOP\CH1\IOCDemo01\IOCDemo01\obj\Debug\IOCDemo01.pdb

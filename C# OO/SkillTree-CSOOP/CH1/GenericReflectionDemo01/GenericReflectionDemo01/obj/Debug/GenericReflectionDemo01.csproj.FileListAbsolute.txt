@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericReflectionDemo01\bin\Debug\GenericReflectionDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericReflectionDemo01\bin\Debug\GenericReflectionDemo01.exe
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericReflectionDemo01\bin\Debug\GenericReflectionDemo01.pdb
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericReflectionDemo01\obj\Debug\GenericReflectionDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericReflectionDemo01\obj\Debug\GenericReflectionDemo01.exe
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericReflectionDemo01\obj\Debug\GenericReflectionDemo01.pdb

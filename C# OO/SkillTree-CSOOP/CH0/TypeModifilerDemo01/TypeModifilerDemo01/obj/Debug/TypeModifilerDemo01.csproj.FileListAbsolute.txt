@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\bin\Debug\TypeModifilerDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\bin\Debug\TypeModifilerDemo01.exe
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\bin\Debug\TypeModifilerDemo01.pdb
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\obj\Debug\TypeModifilerDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\obj\Debug\TypeModifilerDemo01.exe
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\obj\Debug\TypeModifilerDemo01.pdb
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\bin\Debug\ModifilerLibrary.dll
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\TypeModifilerDemo01\bin\Debug\ModifilerLibrary.pdb

@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\BMILibrary\bin\Debug\BMILibrary.dll
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\BMILibrary\bin\Debug\BMILibrary.pdb
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\BMILibrary\obj\Debug\BMILibrary.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\BMILibrary\obj\Debug\BMILibrary.dll
+C:\DemoCode\CSOOP\CH1\ReflectionBMIDemo01\BMILibrary\obj\Debug\BMILibrary.pdb

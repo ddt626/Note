@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo02\bin\Debug\SingletonDemo02.exe
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo02\bin\Debug\SingletonDemo02.pdb
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo02\obj\Debug\SingletonDemo02.Form1.resources
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo02\obj\Debug\SingletonDemo02.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo02\obj\Debug\SingletonDemo02.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo02\obj\Debug\SingletonDemo02.exe
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo02\obj\Debug\SingletonDemo02.pdb
+C:\DemoCode\CSOOP\CH1\SingletonDemo01\SingletonDemo02\obj\Debug\SingletonDemo02.exe
+C:\DemoCode\CSOOP\CH1\SingletonDemo01\SingletonDemo02\obj\Debug\SingletonDemo02.pdb

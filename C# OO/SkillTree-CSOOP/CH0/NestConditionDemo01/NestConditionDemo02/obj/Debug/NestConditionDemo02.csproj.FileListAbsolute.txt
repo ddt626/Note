@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\bin\Debug\NestConditionDemo02.exe.config
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\bin\Debug\NestConditionDemo02.exe
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\bin\Debug\NestConditionDemo02.pdb
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\obj\Debug\NestConditionDemo02.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\obj\Debug\NestConditionDemo02.Form1.resources
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\obj\Debug\NestConditionDemo02.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\obj\Debug\NestConditionDemo02.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\obj\Debug\NestConditionDemo02.exe
+C:\DemoCode\CSOOP\CH0\NestConditionDemo01\NestConditionDemo02\obj\Debug\NestConditionDemo02.pdb

@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH0\ConstructorDemo01\ConstructorDemo02\bin\Debug\ConstructorDemo02.exe.config
+C:\DemoCode\CSOOP\CH0\ConstructorDemo01\ConstructorDemo02\bin\Debug\ConstructorDemo02.exe
+C:\DemoCode\CSOOP\CH0\ConstructorDemo01\ConstructorDemo02\bin\Debug\ConstructorDemo02.pdb
+C:\DemoCode\CSOOP\CH0\ConstructorDemo01\ConstructorDemo02\obj\Debug\ConstructorDemo02.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\ConstructorDemo01\ConstructorDemo02\obj\Debug\ConstructorDemo02.exe
+C:\DemoCode\CSOOP\CH0\ConstructorDemo01\ConstructorDemo02\obj\Debug\ConstructorDemo02.pdb

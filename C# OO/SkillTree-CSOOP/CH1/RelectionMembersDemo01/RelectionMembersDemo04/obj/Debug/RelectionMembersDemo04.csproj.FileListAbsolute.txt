@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo04\bin\Debug\RelectionMembersDemo04.exe.config
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo04\bin\Debug\RelectionMembersDemo04.exe
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo04\bin\Debug\RelectionMembersDemo04.pdb
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo04\obj\Debug\RelectionMembersDemo04.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo04\obj\Debug\RelectionMembersDemo04.exe
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo04\obj\Debug\RelectionMembersDemo04.pdb

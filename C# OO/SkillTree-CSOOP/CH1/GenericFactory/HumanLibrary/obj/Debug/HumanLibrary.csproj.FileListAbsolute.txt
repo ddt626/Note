@@ -1,0 +1,7 @@
+C:\DemoCode\CSOOP\CH1\GenericFactory\HumanLibrary\bin\Debug\HumanLibrary.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\HumanLibrary\bin\Debug\HumanLibrary.pdb
+C:\DemoCode\CSOOP\CH1\GenericFactory\HumanLibrary\bin\Debug\FactoryLibrary.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\HumanLibrary\bin\Debug\FactoryLibrary.pdb
+C:\DemoCode\CSOOP\CH1\GenericFactory\HumanLibrary\obj\Debug\HumanLibrary.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\GenericFactory\HumanLibrary\obj\Debug\HumanLibrary.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\HumanLibrary\obj\Debug\HumanLibrary.pdb

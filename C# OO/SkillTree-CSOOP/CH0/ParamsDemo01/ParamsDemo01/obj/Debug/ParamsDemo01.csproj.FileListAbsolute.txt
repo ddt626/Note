@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH0\ParamsDemo01\ParamsDemo01\bin\Debug\ParamsDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\ParamsDemo01\ParamsDemo01\bin\Debug\ParamsDemo01.exe
+C:\DemoCode\CSOOP\CH0\ParamsDemo01\ParamsDemo01\bin\Debug\ParamsDemo01.pdb
+C:\DemoCode\CSOOP\CH0\ParamsDemo01\ParamsDemo01\obj\Debug\ParamsDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\ParamsDemo01\ParamsDemo01\obj\Debug\ParamsDemo01.exe
+C:\DemoCode\CSOOP\CH0\ParamsDemo01\ParamsDemo01\obj\Debug\ParamsDemo01.pdb

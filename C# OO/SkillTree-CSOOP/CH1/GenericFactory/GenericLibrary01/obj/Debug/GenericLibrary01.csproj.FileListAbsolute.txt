@@ -1,0 +1,4 @@
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericLibrary01\bin\Debug\GenericLibrary01.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericLibrary01\bin\Debug\GenericLibrary01.pdb
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericLibrary01\obj\Debug\GenericLibrary01.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\GenericLibrary01\obj\Debug\GenericLibrary01.pdb

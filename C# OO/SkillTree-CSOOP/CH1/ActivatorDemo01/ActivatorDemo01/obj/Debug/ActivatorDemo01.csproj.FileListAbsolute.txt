@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo01\bin\Debug\ActivatorDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo01\bin\Debug\ActivatorDemo01.exe
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo01\bin\Debug\ActivatorDemo01.pdb
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo01\obj\Debug\ActivatorDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo01\obj\Debug\ActivatorDemo01.exe
+C:\DemoCode\CSOOP\CH1\ActivatorDemo01\ActivatorDemo01\obj\Debug\ActivatorDemo01.pdb

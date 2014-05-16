@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary02\bin\Debug\SimpleLibrary02.dll
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary02\bin\Debug\SimpleLibrary02.pdb
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary02\obj\Debug\SimpleLibrary02.dll
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary02\obj\Debug\SimpleLibrary02.pdb
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary02\obj\Debug\SimpleLibrary02.csprojResolveAssemblyReference.cache

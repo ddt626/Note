@@ -1,0 +1,11 @@
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\bin\Debug\FactoryMethodDemo02.exe.config
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\bin\Debug\FactoryMethodDemo02.exe
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\bin\Debug\FactoryMethodDemo02.pdb
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\obj\Debug\FactoryMethodDemo02.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\obj\Debug\FactoryMethodDemo02.Form1.resources
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\obj\Debug\FactoryMethodDemo02.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\obj\Debug\FactoryMethodDemo02.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\obj\Debug\FactoryMethodDemo02.exe
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\obj\Debug\FactoryMethodDemo02.pdb
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\bin\Debug\FactoryMethodLibrary02.dll
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo02\bin\Debug\FactoryMethodLibrary02.pdb

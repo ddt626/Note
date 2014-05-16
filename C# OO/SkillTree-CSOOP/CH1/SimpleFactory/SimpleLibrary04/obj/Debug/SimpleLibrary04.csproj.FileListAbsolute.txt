@@ -1,0 +1,4 @@
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary04\bin\Debug\SimpleLibrary04.dll
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary04\bin\Debug\SimpleLibrary04.pdb
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary04\obj\Debug\SimpleLibrary04.dll
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary04\obj\Debug\SimpleLibrary04.pdb

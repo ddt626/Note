@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\bin\Debug\StrategeDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\bin\Debug\StrategeDemo01.exe
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\bin\Debug\StrategeDemo01.pdb
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\bin\Debug\StrategyLibrary01.dll
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\bin\Debug\StrategyLibrary01.pdb
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\obj\Debug\StrategeDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\obj\Debug\StrategeDemo01.exe
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategeDemo01\obj\Debug\StrategeDemo01.pdb

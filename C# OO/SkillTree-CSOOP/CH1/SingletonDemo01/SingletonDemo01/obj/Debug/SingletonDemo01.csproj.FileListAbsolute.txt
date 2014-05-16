@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\bin\Debug\SingletonDemo01.exe
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\bin\Debug\SingletonDemo01.pdb
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\obj\Debug\SingletonDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\obj\Debug\SingletonDemo01.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\obj\Debug\SingletonDemo01.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\obj\Debug\SingletonDemo01.exe
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\obj\Debug\SingletonDemo01.pdb
+C:\DemoCode\CSOOP\CH0\SingletonDemo01\SingletonDemo01\obj\Debug\SingletonDemo01.Form1.resources

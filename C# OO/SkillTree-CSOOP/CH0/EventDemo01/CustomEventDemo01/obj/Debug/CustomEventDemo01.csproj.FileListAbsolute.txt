@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\bin\Debug\CustomEventDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\bin\Debug\CustomEventDemo01.exe
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\bin\Debug\CustomEventDemo01.pdb
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\obj\Debug\CustomEventDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\obj\Debug\CustomEventDemo01.Form1.resources
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\obj\Debug\CustomEventDemo01.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\obj\Debug\CustomEventDemo01.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\obj\Debug\CustomEventDemo01.exe
+C:\DemoCode\CSOOP\CH0\EventDemo01\CustomEventDemo01\obj\Debug\CustomEventDemo01.pdb

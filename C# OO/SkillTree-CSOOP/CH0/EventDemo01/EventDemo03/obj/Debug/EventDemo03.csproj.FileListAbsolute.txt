@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\obj\Debug\EventDemo03.Form1.resources
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\obj\Debug\EventDemo03.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\obj\Debug\EventDemo03.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\bin\Debug\EventDemo03.exe.config
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\bin\Debug\EventDemo03.exe
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\bin\Debug\EventDemo03.pdb
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\obj\Debug\EventDemo03.exe
+C:\DemoCode\CSOOP\CH0\EventDemo01\EventDemo03\obj\Debug\EventDemo03.pdb

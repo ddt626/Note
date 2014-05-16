@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH0\BoxingDemo01\BoxingDemo01\bin\Debug\BoxingDemo01.exe
+C:\DemoCode\CSOOP\CH0\BoxingDemo01\BoxingDemo01\bin\Debug\BoxingDemo01.pdb
+C:\DemoCode\CSOOP\CH0\BoxingDemo01\BoxingDemo01\obj\Debug\BoxingDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\BoxingDemo01\BoxingDemo01\obj\Debug\BoxingDemo01.exe
+C:\DemoCode\CSOOP\CH0\BoxingDemo01\BoxingDemo01\obj\Debug\BoxingDemo01.pdb

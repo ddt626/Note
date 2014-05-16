@@ -1,0 +1,9 @@
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\bin\Debug\ExtensionMethodDemo01.exe.config
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\bin\Debug\ExtensionMethodDemo01.exe
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\bin\Debug\ExtensionMethodDemo01.pdb
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\obj\Debug\ExtensionMethodDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\obj\Debug\ExtensionMethodDemo01.Form1.resources
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\obj\Debug\ExtensionMethodDemo01.Properties.Resources.resources
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\obj\Debug\ExtensionMethodDemo01.csproj.GenerateResource.Cache
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\obj\Debug\ExtensionMethodDemo01.exe
+C:\DemoCode\ExtensionMethodDemo01\ExtensionMethodDemo01\obj\Debug\ExtensionMethodDemo01.pdb

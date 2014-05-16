@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\bin\Debug\OODemo01.exe.config
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\bin\Debug\OODemo01.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\bin\Debug\OODemo01.pdb
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\obj\Debug\OODemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\obj\Debug\OODemo01.Form1.resources
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\obj\Debug\OODemo01.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\obj\Debug\OODemo01.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\obj\Debug\OODemo01.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\OODemo01\obj\Debug\OODemo01.pdb

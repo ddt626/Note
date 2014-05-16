@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\bin\Debug\SimpleFactoryDemo04.exe.config
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\bin\Debug\SimpleFactoryDemo04.exe
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\bin\Debug\SimpleFactoryDemo04.pdb
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\obj\Debug\SimpleFactoryDemo04.exe
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\obj\Debug\SimpleFactoryDemo04.pdb
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\obj\Debug\SimpleFactoryDemo04.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\bin\Debug\SimpleLibrary04.dll
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleFactoryDemo04\bin\Debug\SimpleLibrary04.pdb

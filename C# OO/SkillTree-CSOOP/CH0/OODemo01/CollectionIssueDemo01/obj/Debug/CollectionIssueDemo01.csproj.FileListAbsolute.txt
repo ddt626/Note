@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH0\OODemo01\CollectionIssueDemo01\bin\Debug\CollectionIssueDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\OODemo01\CollectionIssueDemo01\bin\Debug\CollectionIssueDemo01.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\CollectionIssueDemo01\bin\Debug\CollectionIssueDemo01.pdb
+C:\DemoCode\CSOOP\CH0\OODemo01\CollectionIssueDemo01\obj\Debug\CollectionIssueDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\OODemo01\CollectionIssueDemo01\obj\Debug\CollectionIssueDemo01.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\CollectionIssueDemo01\obj\Debug\CollectionIssueDemo01.pdb

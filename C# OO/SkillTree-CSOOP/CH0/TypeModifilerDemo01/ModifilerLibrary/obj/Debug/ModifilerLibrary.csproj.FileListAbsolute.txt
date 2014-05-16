@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\ModifilerLibrary\bin\Debug\ModifilerLibrary.dll
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\ModifilerLibrary\bin\Debug\ModifilerLibrary.pdb
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\ModifilerLibrary\obj\Debug\ModifilerLibrary.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\ModifilerLibrary\obj\Debug\ModifilerLibrary.dll
+C:\DemoCode\CSOOP\CH0\TypeModifilerDemo01\ModifilerLibrary\obj\Debug\ModifilerLibrary.pdb

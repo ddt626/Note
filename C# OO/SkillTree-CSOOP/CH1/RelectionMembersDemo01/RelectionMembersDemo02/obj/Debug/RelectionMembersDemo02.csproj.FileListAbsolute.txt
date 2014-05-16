@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo02\bin\Debug\RelectionMembersDemo02.exe.config
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo02\bin\Debug\RelectionMembersDemo02.exe
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo02\bin\Debug\RelectionMembersDemo02.pdb
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo02\obj\Debug\RelectionMembersDemo02.exe
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\RelectionMembersDemo02\obj\Debug\RelectionMembersDemo02.pdb

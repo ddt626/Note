@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericLibrary\bin\Debug\GenericLibrary.dll
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericLibrary\bin\Debug\GenericLibrary.pdb
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericLibrary\obj\Debug\GenericLibrary.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericLibrary\obj\Debug\GenericLibrary.dll
+C:\DemoCode\CSOOP\CH1\GenericReflectionDemo01\GenericLibrary\obj\Debug\GenericLibrary.pdb

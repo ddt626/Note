@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo06\bin\Debug\MethodDemo06.exe.config
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo06\obj\Debug\MethodDemo06.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo06\bin\Debug\MethodDemo06.exe
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo06\bin\Debug\MethodDemo06.pdb
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo06\obj\Debug\MethodDemo06.exe
+C:\DemoCode\CSOOP\CH0\MethodDemo01\MethodDemo06\obj\Debug\MethodDemo06.pdb

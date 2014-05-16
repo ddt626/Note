@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary01\bin\Debug\TestLibrary01.dll
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary01\bin\Debug\TestLibrary01.pdb
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary01\obj\Debug\TestLibrary01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary01\obj\Debug\TestLibrary01.dll
+C:\DemoCode\CSOOP\CH0\AssemblyLoadDemo01\TestLibrary01\obj\Debug\TestLibrary01.pdb

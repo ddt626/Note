@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\bin\Debug\PropertyDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\bin\Debug\PropertyDemo01.exe
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\bin\Debug\PropertyDemo01.pdb
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\obj\Debug\PropertyDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\obj\Debug\PropertyDemo01.Form1.resources
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\obj\Debug\PropertyDemo01.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\obj\Debug\PropertyDemo01.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\obj\Debug\PropertyDemo01.exe
+C:\DemoCode\CSOOP\CH0\PropertyDemo01\PropertyDemo01\obj\Debug\PropertyDemo01.pdb

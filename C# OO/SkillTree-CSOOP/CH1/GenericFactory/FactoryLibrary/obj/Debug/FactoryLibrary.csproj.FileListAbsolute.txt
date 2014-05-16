@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\GenericFactory\FactoryLibrary\bin\Debug\FactoryLibrary.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\FactoryLibrary\bin\Debug\FactoryLibrary.pdb
+C:\DemoCode\CSOOP\CH1\GenericFactory\FactoryLibrary\obj\Debug\FactoryLibrary.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\GenericFactory\FactoryLibrary\obj\Debug\FactoryLibrary.dll
+C:\DemoCode\CSOOP\CH1\GenericFactory\FactoryLibrary\obj\Debug\FactoryLibrary.pdb

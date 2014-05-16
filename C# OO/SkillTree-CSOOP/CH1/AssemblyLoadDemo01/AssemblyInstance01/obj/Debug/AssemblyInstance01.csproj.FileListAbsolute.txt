@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\AssemblyInstance01\bin\Debug\AssemblyInstance01.exe.config
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\AssemblyInstance01\bin\Debug\AssemblyInstance01.exe
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\AssemblyInstance01\bin\Debug\AssemblyInstance01.pdb
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\AssemblyInstance01\obj\Debug\AssemblyInstance01.exe
+C:\DemoCode\CSOOP\CH1\AssemblyLoadDemo01\AssemblyInstance01\obj\Debug\AssemblyInstance01.pdb

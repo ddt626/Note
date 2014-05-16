@@ -1,0 +1,6 @@
+C:\DemoCode\CSOOP\CH0\IComparableDemo01\IComparableDemo01\bin\Debug\IComparableDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\IComparableDemo01\IComparableDemo01\bin\Debug\IComparableDemo01.exe
+C:\DemoCode\CSOOP\CH0\IComparableDemo01\IComparableDemo01\bin\Debug\IComparableDemo01.pdb
+C:\DemoCode\CSOOP\CH0\IComparableDemo01\IComparableDemo01\obj\Debug\IComparableDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\IComparableDemo01\IComparableDemo01\obj\Debug\IComparableDemo01.exe
+C:\DemoCode\CSOOP\CH0\IComparableDemo01\IComparableDemo01\obj\Debug\IComparableDemo01.pdb

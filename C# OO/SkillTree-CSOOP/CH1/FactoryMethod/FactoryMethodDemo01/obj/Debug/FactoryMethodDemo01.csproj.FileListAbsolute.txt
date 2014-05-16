@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\bin\Debug\FactoryMethodDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\bin\Debug\FactoryMethodDemo01.exe
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\bin\Debug\FactoryMethodDemo01.pdb
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\obj\Debug\FactoryMethodDemo01.exe
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\obj\Debug\FactoryMethodDemo01.pdb
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\bin\Debug\FactoryMethodLibrary01.dll
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\bin\Debug\FactoryMethodLibrary01.pdb
+C:\DemoCode\CSOOP\CH1\FactoryMethod\FactoryMethodDemo01\obj\Debug\FactoryMethodDemo01.csprojResolveAssemblyReference.cache

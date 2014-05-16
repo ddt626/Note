@@ -1,0 +1,4 @@
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\TestLibrary\bin\Debug\TestLibrary.dll
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\TestLibrary\bin\Debug\TestLibrary.pdb
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\TestLibrary\obj\Debug\TestLibrary.dll
+C:\DemoCode\CSOOP\CH1\RelectionMembersDemo01\TestLibrary\obj\Debug\TestLibrary.pdb

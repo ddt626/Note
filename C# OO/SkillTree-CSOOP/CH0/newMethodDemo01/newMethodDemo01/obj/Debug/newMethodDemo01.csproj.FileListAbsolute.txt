@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH0\newMethodDemo01\newMethodDemo01\bin\Debug\newMethodDemo01.exe
+C:\DemoCode\CSOOP\CH0\newMethodDemo01\newMethodDemo01\bin\Debug\newMethodDemo01.pdb
+C:\DemoCode\CSOOP\CH0\newMethodDemo01\newMethodDemo01\obj\Debug\newMethodDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\newMethodDemo01\newMethodDemo01\obj\Debug\newMethodDemo01.exe
+C:\DemoCode\CSOOP\CH0\newMethodDemo01\newMethodDemo01\obj\Debug\newMethodDemo01.pdb

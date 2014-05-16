@@ -1,0 +1,8 @@
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\bin\Debug\AppDomainInstanceDemo01.exe.config
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\bin\Debug\AppDomainInstanceDemo01.exe
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\bin\Debug\AppDomainInstanceDemo01.pdb
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\obj\Debug\AppDomainInstanceDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\obj\Debug\AppDomainInstanceDemo01.exe
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\obj\Debug\AppDomainInstanceDemo01.pdb
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\bin\Debug\TestLibrary01.dll
+C:\DemoCode\CSOOP\CH1\AppDomainInstanceDemo01\AppDomainInstanceDemo01\bin\Debug\TestLibrary01.pdb

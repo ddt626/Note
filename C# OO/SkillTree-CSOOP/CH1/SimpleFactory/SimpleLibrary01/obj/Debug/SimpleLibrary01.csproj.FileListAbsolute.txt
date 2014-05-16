@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary01\bin\Debug\SimpleLibrary01.dll
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary01\bin\Debug\SimpleLibrary01.pdb
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary01\obj\Debug\SimpleLibrary01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary01\obj\Debug\SimpleLibrary01.dll
+C:\DemoCode\CSOOP\CH1\SimpleFactory\SimpleLibrary01\obj\Debug\SimpleLibrary01.pdb

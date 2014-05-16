@@ -1,0 +1,9 @@
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\bin\Debug\LinqTest.exe.config
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\bin\Debug\LinqTest.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\bin\Debug\LinqTest.pdb
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\obj\Debug\LinqTest.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\obj\Debug\LinqTest.Form1.resources
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\obj\Debug\LinqTest.Properties.Resources.resources
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\obj\Debug\LinqTest.csproj.GenerateResource.Cache
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\obj\Debug\LinqTest.exe
+C:\DemoCode\CSOOP\CH0\OODemo01\LinqTest\obj\Debug\LinqTest.pdb

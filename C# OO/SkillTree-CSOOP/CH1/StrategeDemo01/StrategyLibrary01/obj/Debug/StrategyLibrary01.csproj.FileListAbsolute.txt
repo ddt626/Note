@@ -1,0 +1,5 @@
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategyLibrary01\bin\Debug\StrategyLibrary01.dll
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategyLibrary01\bin\Debug\StrategyLibrary01.pdb
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategyLibrary01\obj\Debug\StrategyLibrary01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategyLibrary01\obj\Debug\StrategyLibrary01.dll
+C:\DemoCode\CSOOP\CH1\StrategeDemo01\StrategyLibrary01\obj\Debug\StrategyLibrary01.pdb

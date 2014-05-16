@@ -1,0 +1,10 @@
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\bin\Debug\ConstDemo01.exe.config
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\bin\Debug\ConstDemo01.exe
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\bin\Debug\ConstDemo01.pdb
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\bin\Debug\ConstLibrary01.dll
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\bin\Debug\ConstLibrary01.pdb
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\obj\Debug\ConstDemo01.csprojResolveAssemblyReference.cache
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\obj\Debug\ConstDemo01.exe
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\obj\Debug\ConstDemo01.pdb
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\bin\Debug\ConstLibrary02.dll
+C:\DemoCode\CSOOP\CH0\ConstDemo01\ConstDemo01\bin\Debug\ConstLibrary02.pdb
