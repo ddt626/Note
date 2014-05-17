@@ -56,6 +56,32 @@
   - 迪米特法則
   - 跟介面隔離很像
   
+# IoC 控制反轉
+
+- 實現低偶合的最佳設計方式
+- 相依於抽象而不倚賴於實作
+- 實作是怎麼產生的
+
+# Dependency Injection
+
+- 注入
+  - 讓一個類別認識另外一個類別
+  - 把一個類別注入一個類別
+
+- Interface Injection
+- Constructor Injection
+- Setter Injection
+- 兩個由什麼方式認識的..
+
+
+
+
+
+
+
+
+
+
 
 
 
