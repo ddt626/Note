@@ -73,13 +73,35 @@
 - Setter Injection
 - 兩個由什麼方式認識的..
 
+# 單例模式
 
+- 單一獨佔性的操作
 
+# 反射
 
+- Assembly
+  - Assembly.Load
+    - by AssemblyName
+    - by Assembly nam String
+    - by Assembly byte[]
+    
+- 建立執行個體
+  - object or ObjecHendler
 
+- GetMember
+- GetMethod
+- Property
+- Interface
 
+- Activator
 
+- 使用反射建立泛型實體
+- clr 啟動，產生appdomain，load 參考 => 自排
+- 反射 => 手排
 
+- 反射最大的問題是 型別安全，反射的東西是弱型別
+
+# Attribute
 
 
 
